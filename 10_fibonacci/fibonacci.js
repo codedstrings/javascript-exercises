@@ -4,11 +4,11 @@ const fibonacci = function(val) {
     }
     let fibonacci=0; prev=1; temp=0;
     for(let i=0 ;i<val;i++){
-          console.log("prev="+prev+" ,fibonacci="+fibonacci);
+        //   console.log("prev="+prev+" ,fibonacci="+fibonacci);
           temp=fibonacci;
         fibonacci=fibonacci+prev;
         prev=temp;
-        console.log("after: prev="+prev+" ,fibonacci="+fibonacci);
+        // console.log("after: prev="+prev+" ,fibonacci="+fibonacci);
       
     }
     return fibonacci;
